@@ -1,0 +1,7 @@
+{
+  "name": "Free",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

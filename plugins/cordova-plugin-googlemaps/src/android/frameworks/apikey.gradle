@@ -1,0 +1,66 @@
+def searchFileInParents(target) {
+  def searchPath = target
+  for (int i = 0; i < 8; i++) {
+    println(searchPath)
+    def targetFile = file(searchPath)
+    if(!targetFile.canRead()) {
+      searchPath = '../' + searchPath;
+    } else {
+      return targetFile;
+    }
+  }
+  return null;
+}
+
+android {
+  def searchPath = 'app/src/main/res/xml/config.xml'
+  // #1. Find (project)/config.xml file,
+  //     because ionic capacitor does not copy <preference> nodes
+  def configXmlFile = searchFileInParents("config.xml")
+
+  if (configXmlFile == null) {
+    // #2. Find (project)/app/src/main/res/xml/config.xml file,
+    //     cordova should copy <preference> to this file
+    configXmlFile = searchFileInParents("app/src/main/res/xml/config.xml")
+  }
+
+  if (configXmlFile == null) {
+    throw new GradleException("Can not find config.xml file.")
+  }
+
+  // parse xml file
+  def widget = new XmlParser().parse(configXmlFile)
+  if (widget.preference == null) {
+    throw new GradleException("widget is null.")
+  }
+  if (widget.preference.size() == 0) {
+    throw new GradleException("Please add '<preference name=\"GOOGLE_MAPS_ANDROID_API_KEY\" />' to the config.xml file.")
+  }
+  println("preference = " + widget.preference.size())
+  Properties props = new Properties()
+  def found = 0
+  widget.preference.each { pref ->
+    def name = pref.attributes().name
+    def value = pref.attributes().value
+    println("name = " + name + ", value = " + value);
+    if (name == "GOOGLE_MAPS_ANDROID_API_KEY") {
+      found = 1
+      props.setProperty(name, value);
+    }
+  }
+
+
+  if (found == 0) {
+    throw new GradleException("Please add '<preference name=\"GOOGLE_MAPS_ANDROID_API_KEY\" />' to the config.xml file.")
+  }
+
+
+  buildTypes {
+    debug {
+      manifestPlaceholders.GOOGLE_MAPS_ANDROID_API_KEY = props.getProperty("GOOGLE_MAPS_ANDROID_API_KEY")
+    }
+    release {
+      manifestPlaceholders.GOOGLE_MAPS_ANDROID_API_KEY = props.getProperty("GOOGLE_MAPS_ANDROID_API_KEY")
+    }
+  }
+}

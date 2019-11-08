@@ -1,0 +1,395 @@
+{
+  "entries": [
+    "components/action-sheet-controller/action-sheet-controller.js",
+    "components/action-sheet/action-sheet.js",
+    "components/alert/alert.js",
+    "components/alert-controller/alert-controller.js",
+    "components/anchor/anchor.js",
+    "components/backdrop/backdrop.js",
+    "components/app/app.js",
+    "components/avatar/avatar.js",
+    "components/badge/badge.js",
+    "components/card-content/card-content.js",
+    "components/back-button/back-button.js",
+    "components/button/button.js",
+    "components/card-header/card-header.js",
+    "components/buttons/buttons.js",
+    "components/card/card.js",
+    "components/card-title/card-title.js",
+    "components/card-subtitle/card-subtitle.js",
+    "components/chip/chip.js",
+    "components/col/col.js",
+    "components/checkbox/checkbox.js",
+    "components/content/content.js",
+    "components/fab-list/fab-list.js",
+    "components/fab-button/fab-button.js",
+    "components/datetime/datetime.js",
+    "components/grid/grid.js",
+    "components/header/header.js",
+    "components/fab/fab.js",
+    "components/footer/footer.js",
+    "components/img/img.js",
+    "components/item-group/item-group.js",
+    "components/infinite-scroll/infinite-scroll.js",
+    "components/infinite-scroll-content/infinite-scroll-content.js",
+    "components/input/input.js",
+    "components/item-sliding/item-sliding.js",
+    "components/item-option/item-option.js",
+    "components/item-options/item-options.js",
+    "components/item/item.js",
+    "components/label/label.js",
+    "components/item-divider/item-divider.js",
+    "components/list/list.js",
+    "components/list-header/list-header.js",
+    "components/loading-controller/loading-controller.js",
+    "components/menu-button/menu-button.js",
+    "components/menu-toggle/menu-toggle.js",
+    "components/menu-controller/menu-controller.js",
+    "components/modal-controller/modal-controller.js",
+    "components/nav-link/nav-link.js",
+    "components/modal/modal.js",
+    "components/nav-pop/nav-pop.js",
+    "components/nav-push/nav-push.js",
+    "components/menu/menu.js",
+    "components/note/note.js",
+    "components/nav/nav.js",
+    "components/picker-column/picker-column.js",
+    "components/picker-controller/picker-controller.js",
+    "components/popover-controller/popover-controller.js",
+    "components/loading/loading.js",
+    "components/progress-bar/progress-bar.js",
+    "components/popover/popover.js",
+    "components/radio-group/radio-group.js",
+    "components/radio/radio.js",
+    "components/refresher-content/refresher-content.js",
+    "components/range/range.js",
+    "components/refresher/refresher.js",
+    "components/reorder/reorder.js",
+    "components/router-link/router-link.js",
+    "components/route/route.js",
+    "components/reorder-group/reorder-group.js",
+    "components/router-outlet/route-outlet.js",
+    "components/route-redirect/route-redirect.js",
+    "components/ripple-effect/ripple-effect.js",
+    "components/router/router.js",
+    "components/row/row.js",
+    "components/searchbar/searchbar.js",
+    "components/segment-button/segment-button.js",
+    "components/segment/segment.js",
+    "components/select-option/select-option.js",
+    "components/select-popover/select-popover.js",
+    "components/skeleton-text/skeleton-text.js",
+    "components/slide/slide.js",
+    "components/select/select.js",
+    "components/slides/slides.js",
+    "components/spinner/spinner.js",
+    "components/split-pane/split-pane.js",
+    "components/tab-bar/tab-bar.js",
+    "components/nav-set-root/nav-set-root.js",
+    "components/tab/tab.js",
+    "components/tab-button/tab-button.js",
+    "components/tabs/tabs.js",
+    "components/text/text.js",
+    "components/thumbnail/thumbnail.js",
+    "components/toast-controller/toast-controller.js",
+    "components/textarea/textarea.js",
+    "components/title/title.js",
+    "components/toast/toast.js",
+    "components/toolbar/toolbar.js",
+    "components/toggle/toggle.js",
+    "components/virtual-scroll/virtual-scroll.js",
+    "components/picker/picker.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "1.6.1",
+    "typescriptVersion": "3.6.3"
+  },
+  "collections": [
+    {
+      "name": "ionicons",
+      "tags": [
+        "ion-icon"
+      ]
+    }
+  ],
+  "bundles": [
+    {
+      "components": [
+        "ion-action-sheet"
+      ]
+    },
+    {
+      "components": [
+        "ion-alert"
+      ]
+    },
+    {
+      "components": [
+        "ion-back-button"
+      ]
+    },
+    {
+      "components": [
+        "ion-backdrop"
+      ]
+    },
+    {
+      "components": [
+        "ion-checkbox"
+      ]
+    },
+    {
+      "components": [
+        "ion-chip"
+      ]
+    },
+    {
+      "components": [
+        "ion-input"
+      ]
+    },
+    {
+      "components": [
+        "ion-textarea"
+      ]
+    },
+    {
+      "components": [
+        "ion-loading"
+      ]
+    },
+    {
+      "components": [
+        "ion-modal"
+      ]
+    },
+    {
+      "components": [
+        "ion-img"
+      ]
+    },
+    {
+      "components": [
+        "ion-popover"
+      ]
+    },
+    {
+      "components": [
+        "ion-progress-bar"
+      ]
+    },
+    {
+      "components": [
+        "ion-range"
+      ]
+    },
+    {
+      "components": [
+        "ion-ripple-effect"
+      ]
+    },
+    {
+      "components": [
+        "ion-searchbar"
+      ]
+    },
+    {
+      "components": [
+        "ion-spinner"
+      ]
+    },
+    {
+      "components": [
+        "ion-split-pane"
+      ]
+    },
+    {
+      "components": [
+        "ion-text"
+      ]
+    },
+    {
+      "components": [
+        "ion-toast"
+      ]
+    },
+    {
+      "components": [
+        "ion-toggle"
+      ]
+    },
+    {
+      "components": [
+        "ion-virtual-scroll"
+      ]
+    },
+    {
+      "components": [
+        "ion-button",
+        "ion-icon"
+      ]
+    },
+    {
+      "components": [
+        "ion-infinite-scroll",
+        "ion-infinite-scroll-content"
+      ]
+    },
+    {
+      "components": [
+        "ion-radio",
+        "ion-radio-group"
+      ]
+    },
+    {
+      "components": [
+        "ion-refresher",
+        "ion-refresher-content"
+      ]
+    },
+    {
+      "components": [
+        "ion-reorder",
+        "ion-reorder-group"
+      ]
+    },
+    {
+      "components": [
+        "ion-segment",
+        "ion-segment-button"
+      ]
+    },
+    {
+      "components": [
+        "ion-slide",
+        "ion-slides"
+      ]
+    },
+    {
+      "components": [
+        "ion-tab",
+        "ion-tabs"
+      ]
+    },
+    {
+      "components": [
+        "ion-tab-bar",
+        "ion-tab-button"
+      ]
+    },
+    {
+      "components": [
+        "ion-avatar",
+        "ion-badge",
+        "ion-thumbnail"
+      ]
+    },
+    {
+      "components": [
+        "ion-datetime",
+        "ion-picker",
+        "ion-picker-column"
+      ]
+    },
+    {
+      "components": [
+        "ion-fab",
+        "ion-fab-button",
+        "ion-fab-list"
+      ]
+    },
+    {
+      "components": [
+        "ion-col",
+        "ion-grid",
+        "ion-row"
+      ]
+    },
+    {
+      "components": [
+        "ion-item-option",
+        "ion-item-options",
+        "ion-item-sliding"
+      ]
+    },
+    {
+      "components": [
+        "ion-select",
+        "ion-select-option",
+        "ion-select-popover"
+      ]
+    },
+    {
+      "components": [
+        "ion-menu",
+        "ion-menu-button",
+        "ion-menu-controller",
+        "ion-menu-toggle"
+      ]
+    },
+    {
+      "components": [
+        "ion-route",
+        "ion-route-redirect",
+        "ion-router",
+        "ion-router-link"
+      ]
+    },
+    {
+      "components": [
+        "ion-card",
+        "ion-card-content",
+        "ion-card-header",
+        "ion-card-subtitle",
+        "ion-card-title"
+      ]
+    },
+    {
+      "components": [
+        "ion-nav",
+        "ion-nav-link",
+        "ion-nav-pop",
+        "ion-nav-push",
+        "ion-nav-set-root"
+      ]
+    },
+    {
+      "components": [
+        "ion-app",
+        "ion-buttons",
+        "ion-content",
+        "ion-footer",
+        "ion-header",
+        "ion-router-outlet",
+        "ion-title",
+        "ion-toolbar"
+      ]
+    },
+    {
+      "components": [
+        "ion-item",
+        "ion-item-divider",
+        "ion-item-group",
+        "ion-label",
+        "ion-list",
+        "ion-list-header",
+        "ion-note",
+        "ion-skeleton-text"
+      ]
+    },
+    {
+      "components": [
+        "ion-action-sheet-controller",
+        "ion-alert-controller",
+        "ion-anchor",
+        "ion-loading-controller",
+        "ion-modal-controller",
+        "ion-picker-controller",
+        "ion-popover-controller",
+        "ion-toast-controller"
+      ]
+    }
+  ],
+  "global": "global/ionic-global.js"
+}
