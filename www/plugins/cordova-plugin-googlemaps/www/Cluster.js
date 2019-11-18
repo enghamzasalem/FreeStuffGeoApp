@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.Cluster", function(require, exports, module) { var LatLngBounds = require('./LatLngBounds');
+cordova.define("cordova-plugin-googlemaps.Cluster", function(require, exports, module) {
+var LatLngBounds = require('./LatLngBounds');
 
 /*****************************************************************************
  * Cluster Class

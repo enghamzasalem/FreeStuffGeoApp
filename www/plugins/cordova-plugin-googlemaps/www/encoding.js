@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.encoding", function(require, exports, module) { var LatLng = require('./LatLng');
+cordova.define("cordova-plugin-googlemaps.encoding", function(require, exports, module) {
+var LatLng = require('./LatLng');
 var common = require('./Common');
 
 /*****************************************************************************

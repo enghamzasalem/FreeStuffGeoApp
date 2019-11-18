@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.StreetViewPanorama", function(require, exports, module) { var utils = require('cordova/utils'),
+cordova.define("cordova-plugin-googlemaps.StreetViewPanorama", function(require, exports, module) {
+var utils = require('cordova/utils'),
   common = require('./Common'),
   event = require('./event'),
   Overlay = require('./Overlay');

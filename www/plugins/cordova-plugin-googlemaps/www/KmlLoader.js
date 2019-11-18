@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.KmlLoader", function(require, exports, module) { 
+cordova.define("cordova-plugin-googlemaps.KmlLoader", function(require, exports, module) {
+
 
 
 var utils = require('cordova/utils'),

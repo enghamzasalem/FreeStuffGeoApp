@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.geomodel", function(require, exports, module) { /**
+cordova.define("cordova-plugin-googlemaps.geomodel", function(require, exports, module) {
+/**
 #
 # Copyright 2010 Alexandre Gellibert
 #

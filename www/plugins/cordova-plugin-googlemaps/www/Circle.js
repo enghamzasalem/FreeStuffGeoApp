@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.Circle", function(require, exports, module) { var utils = require('cordova/utils'),
+cordova.define("cordova-plugin-googlemaps.Circle", function(require, exports, module) {
+var utils = require('cordova/utils'),
   common = require('./Common'),
   LatLngBounds = require('./LatLngBounds'),
   Overlay = require('./Overlay');

@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.BaseArrayClass", function(require, exports, module) { var utils = require('cordova/utils'),
+cordova.define("cordova-plugin-googlemaps.BaseArrayClass", function(require, exports, module) {
+var utils = require('cordova/utils'),
   BaseClass = require('./BaseClass');
 
 var ARRAY_FIELD = typeof Symbol === 'undefined' ? '__array' + Date.now() : Symbol('array');

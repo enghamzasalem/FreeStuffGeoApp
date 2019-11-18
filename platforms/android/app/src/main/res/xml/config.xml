@@ -117,6 +117,6 @@
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
-    <preference name="GOOGLE_MAPS_ANDROID_API_KEY" value="AIzaSyB1mhFZ1GqfFIDuvWJZ9PqWRz8gqy3ZeUk" />
-    <preference name="GOOGLE_MAPS_IOS_API_KEY" value="AIzaSyB1mhFZ1GqfFIDuvWJZ9PqWRz8gqy3ZeUk" />
+    <preference name="GOOGLE_MAPS_ANDROID_API_KEY" value="AIzaSyBZamoub9SCWL2GriEBRSgLGVVrF0QPakk" />
+    <preference name="GOOGLE_MAPS_IOS_API_KEY" value="AIzaSyBZamoub9SCWL2GriEBRSgLGVVrF0QPakk" />
 </widget>

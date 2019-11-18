@@ -63,7 +63,7 @@ var Tab2PageModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3RhYjIvdGFiMi5wYWdlLnNjc3MifQ== */"
+module.exports = "html,\nbody {\n  height: 100%;\n}\n\n#map_canvas {\n  /* Must bigger size than 100x100 pixels */\n  width: 100%;\n  height: 80%;\n}\n\nbutton {\n  padding: 0.5em;\n  margin: 0.5em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2hhbXphL0ZyZWVTdHVmZi9GcmVlL0ZyZWVTdHVmZkdlb0FwcC9zcmMvYXBwL3RhYjIvdGFiMi5wYWdlLnNjc3MiLCJzcmMvYXBwL3RhYjIvdGFiMi5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0VBRUUsWUFBQTtBQ0NGOztBRENBO0VBQ0UseUNBQUE7RUFDQSxXQUFBO0VBQ0EsV0FBQTtBQ0VGOztBREFBO0VBQ0UsY0FBQTtFQUNBLGFBQUE7QUNHRiIsImZpbGUiOiJzcmMvYXBwL3RhYjIvdGFiMi5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJodG1sLFxuYm9keSB7XG4gIGhlaWdodDogMTAwJTtcbn1cbiNtYXBfY2FudmFzIHtcbiAgLyogTXVzdCBiaWdnZXIgc2l6ZSB0aGFuIDEwMHgxMDAgcGl4ZWxzICovXG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDgwJTtcbn1cbmJ1dHRvbiB7XG4gIHBhZGRpbmc6IDAuNWVtO1xuICBtYXJnaW46IDAuNWVtO1xufVxuIiwiaHRtbCxcbmJvZHkge1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbiNtYXBfY2FudmFzIHtcbiAgLyogTXVzdCBiaWdnZXIgc2l6ZSB0aGFuIDEwMHgxMDAgcGl4ZWxzICovXG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDgwJTtcbn1cblxuYnV0dG9uIHtcbiAgcGFkZGluZzogMC41ZW07XG4gIG1hcmdpbjogMC41ZW07XG59Il19 */"
 
 /***/ }),
 
@@ -86,7 +86,7 @@ var Tab2Page = /** @class */ (function () {
     }
     Tab2Page = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-tab2',
+            selector: "app-tab2",
             template: __webpack_require__(/*! raw-loader!./tab2.page.html */ "./node_modules/raw-loader/index.js!./src/app/tab2/tab2.page.html"),
             styles: [__webpack_require__(/*! ./tab2.page.scss */ "./src/app/tab2/tab2.page.scss")]
         }),

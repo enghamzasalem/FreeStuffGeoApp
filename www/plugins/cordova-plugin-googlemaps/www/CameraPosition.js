@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.CameraPosition", function(require, exports, module) { /********************************************************************************
+cordova.define("cordova-plugin-googlemaps.CameraPosition", function(require, exports, module) {
+/********************************************************************************
  * @name CameraPosition
  * @class This class represents new camera position
  * @property {LatLng} target The location where you want to show

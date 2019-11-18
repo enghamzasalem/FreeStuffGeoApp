@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.Promise", function(require, exports, module) { // Copyright (c) 2013 Forbes Lindesay
+cordova.define("cordova-plugin-googlemaps.Promise", function(require, exports, module) {
+// Copyright (c) 2013 Forbes Lindesay
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal

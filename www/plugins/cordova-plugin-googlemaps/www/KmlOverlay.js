@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.KmlOverlay", function(require, exports, module) { 
+cordova.define("cordova-plugin-googlemaps.KmlOverlay", function(require, exports, module) {
+
 var utils = require('cordova/utils'),
   common = require('./Common'),
   BaseClass = require('./BaseClass'),

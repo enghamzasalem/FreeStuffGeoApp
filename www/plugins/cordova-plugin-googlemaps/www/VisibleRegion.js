@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.VisibleRegion", function(require, exports, module) { var utils = require('cordova/utils'),
+cordova.define("cordova-plugin-googlemaps.VisibleRegion", function(require, exports, module) {
+var utils = require('cordova/utils'),
   LatLngBounds = require('./LatLngBounds');
 
 /*****************************************************************************

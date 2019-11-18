@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.BaseClass", function(require, exports, module) { var VARS_FIELD = typeof Symbol === 'undefined' ? '__vars' + Date.now() : Symbol('vars');
+cordova.define("cordova-plugin-googlemaps.BaseClass", function(require, exports, module) {
+var VARS_FIELD = typeof Symbol === 'undefined' ? '__vars' + Date.now() : Symbol('vars');
 var SUBSCRIPTIONS_FIELD = typeof Symbol === 'undefined' ? '__subs' + Date.now() : Symbol('subscriptions');
 
 function BaseClass() {

@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.MapTypeId", function(require, exports, module) { module.exports = {
+cordova.define("cordova-plugin-googlemaps.MapTypeId", function(require, exports, module) {
+module.exports = {
   'NORMAL': 'MAP_TYPE_NORMAL',
   'ROADMAP': 'MAP_TYPE_NORMAL',
   'SATELLITE': 'MAP_TYPE_SATELLITE',

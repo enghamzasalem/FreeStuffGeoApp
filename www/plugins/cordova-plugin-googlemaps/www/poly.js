@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.poly", function(require, exports, module) { var LatLngBounds = require('./LatLngBounds'),
+cordova.define("cordova-plugin-googlemaps.poly", function(require, exports, module) {
+var LatLngBounds = require('./LatLngBounds'),
   BaseArrayClass = require('./BaseArrayClass');
 
 function containsLocation(latLng, path) {

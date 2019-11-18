@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.Common", function(require, exports, module) { 
+cordova.define("cordova-plugin-googlemaps.Common", function(require, exports, module) {
+
 var BaseArrayClass = require('./BaseArrayClass');
 var utils = require('cordova/utils');
 

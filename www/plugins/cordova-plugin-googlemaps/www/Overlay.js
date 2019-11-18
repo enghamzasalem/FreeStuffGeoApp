@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.Overlay", function(require, exports, module) { 
+cordova.define("cordova-plugin-googlemaps.Overlay", function(require, exports, module) {
+
 var BaseClass = require('./BaseClass'),
   utils = require('cordova/utils'),
   BaseArrayClass = require('./BaseArrayClass');

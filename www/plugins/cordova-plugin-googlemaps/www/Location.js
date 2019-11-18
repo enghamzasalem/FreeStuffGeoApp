@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.Location", function(require, exports, module) { /*****************************************************************************
+cordova.define("cordova-plugin-googlemaps.Location", function(require, exports, module) {
+/*****************************************************************************
  * Location Class
  *****************************************************************************/
 var LatLng = require('./LatLng');

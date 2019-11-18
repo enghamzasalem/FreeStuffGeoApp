@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.InlineWorker", function(require, exports, module) { // InlineWorker
+cordova.define("cordova-plugin-googlemaps.InlineWorker", function(require, exports, module) {
+// InlineWorker
 // https://github.com/mohayonao/inline-worker
 //
 // The MIT License (MIT)

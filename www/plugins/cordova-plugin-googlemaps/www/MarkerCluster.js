@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.MarkerCluster", function(require, exports, module) { 
+cordova.define("cordova-plugin-googlemaps.MarkerCluster", function(require, exports, module) {
+
 /* eslint no-useless-escape: off */
 
 var utils = require('cordova/utils'),

@@ -1,4 +1,5 @@
-cordova.define("cordova-plugin-googlemaps.LatLng", function(require, exports, module) { /*******************************************************************************
+cordova.define("cordova-plugin-googlemaps.LatLng", function(require, exports, module) {
+/*******************************************************************************
  * @name LatLng
  * @class This class represents new camera position
  * @param {Number} latitude
